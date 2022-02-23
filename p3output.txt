@@ -1,1 +1,9 @@
-
+ gcc -g p3original.c
+ ./a.out
+Enter the number:
+3
+The number 3 is a prime number
+ ./a.out
+Enter the number:
+8
+The number 8 is not a prime number
