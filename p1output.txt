@@ -1,1 +1,7 @@
-
+ gcc -g p1original.c -lm
+ ./a.out
+Enter the 1st coordinates:
+1 1
+Enter the 2st coordinates:
+2 2
+the distance between (1,1) and (2,2) is 1.414214
