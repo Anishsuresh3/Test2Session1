@@ -1,1 +1,10 @@
-
+ gcc -g p2original.c -lm
+ ./a.out
+Enter the coordinates of the triangle:
+1 1 2 2 1 1
+The given coordinates : (1.000000,1.000000),(2.000000,2.000000),(1.000000,1.000000) does not form a triangle
+ gcc -g p2original.c -lm
+ ./a.out
+Enter the coordinates of the triangle:
+1 1 5 9 2 2 
+The given coordinates : (1.000000,1.000000),(5.000000,9.000000),(2.000000,2.000000) form a triangle
