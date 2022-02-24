@@ -1,1 +1,21 @@
-
+ gcc -g p8original.c -lm
+ ./a.out
+Enter the no. of sides of a polygon:
+4
+Enter the coordinates
+0 0
+Enter the coordinates
+0 3
+Enter the coordinates
+0 3
+Enter the coordinates
+3 3
+Enter the coordinates
+3 3
+Enter the coordinates
+3 0
+Enter the coordinates
+3 0
+Enter the coordinates
+0 0
+The perimeter of the polygon with side 4 is 12.000000
