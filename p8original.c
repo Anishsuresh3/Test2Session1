@@ -48,29 +48,16 @@ void input_n_lines(int n, Line l[])
   for(int i=0;i<n;i++)
     l[i]=input_line();
 }
-int input_polygon(int n, Polygon *p)
+void input_polygon(int n, Polygon *p)
 {
   p->n=n;
   input_n_lines(p->n,p->l);
   p->perimeter=0.0;
-  for(int i=0;i<n-1;i++)
-    {
-      if(p->l[i].distance!=p->l[i+1].distance)
-        return 0;
-    }
-  return 1;
 }
-void find_perimeter(Polygon *p,int c)
+void find_perimeter(Polygon *p)
 {
-  if(c)
-  {
-    p->perimeter=p->n*p->l[0].distance;
-  }
-  else
-  {
-    for(int i=0;i<p->n;i++)
-       p->perimeter+=p->l[i].distance;
-  }
+  for(int i=0;i<p->n;i++)
+      p->perimeter+=p->l[i].distance;
 }
 void output(Polygon p)
 {
@@ -80,8 +67,8 @@ int main()
 {
   int n=input_n();
   Polygon p;
-  int c=input_polygon(n,&p);
-  find_perimeter(&p,c);
+  input_polygon(n,&p);
+  find_perimeter(&p);
   output(p);
   return 0;
 }
