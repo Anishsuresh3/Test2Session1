@@ -22,11 +22,11 @@ int str_index(char *string, char *substring)
         }
       }
     }
-  return 0;
+  return -1;
 }
 void output(char *string,char *substring,int index)
 {
-  if(index)
+  if(index>=0)
     printf("The index of %s in %s is %d\n",substring,string,index);
   else
     printf("The given substring %s is not present in %s\n",substring,string);
