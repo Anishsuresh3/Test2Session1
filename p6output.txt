@@ -1,1 +1,6 @@
-
+ gcc -g p6original.c
+ ./a.out
+Enter the string and substring:
+helloworldhello
+world
+The index of world in helloworldhello is 5
