@@ -1,5 +1,5 @@
 #include<stdio.h>
-void input_string(char *string,char *substring)
+void input_string(char *string, char *substring)
 {
   printf("Enter the string and substring:\n");
   scanf("%s%s",string,substring);
