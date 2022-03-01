@@ -21,7 +21,7 @@ int find_fibo(int n)
 }
 void output(int n, int fibo)
 {
-  printf("The %dth number in fibonacci sequence is %d",n,fibo);
+  printf("The %dth number in fibonacci sequence is %d\n",n,fibo);
 }
 int main()
 {

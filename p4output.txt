@@ -1,1 +1,6 @@
+ gcc -g p4original.c
+ ./a.out
+Enter the number:
+3
+The 3th number in fibonacci sequence is 2
 
